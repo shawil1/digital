@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .wrapper{
+               background-color:whitesmoke;
+               list-style-type: none;
+               padding: 0;
+               border-radius: 3px;
+      }
+
+      .form-row{
+                display:flex;
+                justify-content: flex-end;
+                padding: .5em;
+      }
+
+      .form-row > label{
+                  padding:.5em 1em .5em 0;
+      }
+
+      .form-row > input{
+                  flex: 1;
+      }
+
+      .form-row > input,
+      .form-row > button{
+           padding: .5em;
+      }
+
+      .form-row > button{
+                  background-color: grey;
+                  color: white;
+                  border:0;
+      }
+
+      .form-row1{
+                 margin-left: 10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <form>
+      <ul class="wrapper">
+        <li class="form-row">
+          <label for="name">Name</label>
+          <input type="text"id="name">
+          </li>
+
+        <li class="form-row">
+          <label for="phone">Phone</label>
+          <input type="text"id="phone">
+          </li>
+
+          <li class="form-row">
+            <label for="email">Email</label>
+            <input type="text"id="email">
+            </li>
+
+            <li class="form-row">
+              <label for="pickup date/time">Pickup Date/Time</label>
+              <input type="pickup date/time"placeholder="dd/mm/yyyy --:-- --">
+              </li>
+
+              <li class="form-row1">
+                <label for="pickup place">Pickup Place</label>
+                <select id="pickup place">
+                  <option value=""selected="selected">Select One</option>
+                  <option value="office">Texi Office</option>
+                  <option value="town_hall">Town Ha11</option>
+                  <option value="telepathy">we'11 Gusess!</option>
+                  </select>
+                    </li>
+
+              <li class="form-row">
+                <label for="dropoff place">Dropoff Place</label>
+                <input type="text"id="dropoff place">
+              </li>
+
+              <li class="form-row">
+                <button type="submit booking">Submit Booking</button>
+              </li>
+
+              </ul>
+              </form>
+
+  </body>
+</html>

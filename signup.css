@@ -1,0 +1,21 @@
+.body
+{
+      background-image: url(house.jpg);
+}
+.main{
+      margin-left: 430px;
+      margin-top: 100px;
+      color:white;
+      height: 470px;
+      border: 1px solid black;
+      border-radius: 15px;
+      width: 550px;
+     }
+
+     .form{
+           margin-left: 40px;
+           margin-top: 30px;
+     }
+.h1{
+   margin-left: 200px;
+}

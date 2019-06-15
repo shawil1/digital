@@ -1,0 +1,36 @@
+.body
+{
+      background-image: url(house.jpg);
+}
+.main{
+      width:565px;
+      margin-left: 300px;
+      border: 1px solid black;
+      border-radius: 20px;
+      color: #00FFFF;
+      height: 930px;
+    }
+
+     .form{
+           margin-left: 50px;
+           margin-top: 20px;
+        }
+
+        ul li{
+              list-style: none;
+              display: inline-block;
+        }
+
+        .zip0{height:20px;
+              width:200px;
+              padding: 10px;
+              border-radius:10px;
+            }
+
+
+        .zip{height:20px;
+             width:198px;
+             padding: 10px;
+             border-radius:10px;
+             margin-left:15px;
+           }

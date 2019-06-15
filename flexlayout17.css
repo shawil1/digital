@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+      background-color: lightgrey;
+      display: flex;
+      flex-direction: column;
+}
+
+.main input{
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+          }
+
+.headmain input{
+                width:90vw;
+                padding: .5em;
+}
+
+.ironman{
+         display: flex;
+         flex-direction: row;
+}
+
+.ironman1 input{
+                width:90vw;
+                padding: .5em;
+}
+
+.ironman2{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman3{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman4{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman5{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman6{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman7 input{
+          display: flex;
+          flex-direction:column;
+          width:90vw;
+          padding: .5em;
+}
+
+.ironman8{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman9{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman10{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman11{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman12{
+          display: flex;
+          flex-direction: row;
+}
+
+.ironman13{
+          display: flex;
+          flex-direction: row;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+
+      .row {
+               background-color: #00FFFF;
+               list-style-type: none;
+               padding: 0;
+               border-radius: 3px;
+
+      }
+
+      .input-group{
+                display:flex;
+                justify-content: flex-end;
+                padding: .5em;
+      }
+
+      .input-group > label{
+                  padding:.5em 1em .5em 0;
+      }
+
+      .input-group > input{
+                  flex: 1;
+      }
+
+      .input-group > input,
+      .input-group > button{
+           padding: .5em;
+      }
+
+      .input-group > button{
+                  background-color: blue;
+                  color: white;
+                  border:0;
+      }
+
+      .input-group1{
+                 margin-left: 10px;
+      }
+
+      .headmain{
+                background-color:#00FFFF;
+               display:flex;
+               flex-direction: row;
+      }
+
+      .texi{
+            display:flex;
+            flex-direction: column;
+      }
+
+      .extras{
+             display:flex;
+             flex-direction: column;
+      }
+
+
+
+
+      .main{
+            background-color: #00FFFF;
+            height: 400vh;
+
+      }
+
+       .input-group{
+             padding: 3vh;
+
+      }
+
+       .column1{
+                display: flex;
+                flex-direction: column;
+                margin-left: 400px;
+                margin-top: -436px;
+        }
+
+
+
+        select{
+               padding: .5em;
+               width: 35.5vh;
+               margin-left: 10px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+   <div class="main">
+    <form>
+      <div class="headmain">
+      <div class="row">
+        <div class="column">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text"id="name">
+          </div>
+
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="text"id="phone">
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="text"id="email">
+            </div>
+
+            <div class="input-group">
+              <label for="pickup date/time">Pickup Date/Time</label>
+              <input type="pickup date/time"placeholder="dd/mm/yyyy --:-- --">
+              </div>
+
+              <div class="input-group1">
+                <label for="pickup place">Pickup Place</label>
+                <select id="pickup place">
+                  <option value=""selected="selected">Select One</option>
+                  <option value="office">Texi Office</option>
+                  <option value="town_hall">Town Ha11</option>
+                  <option value="telepathy">we'11 Gusess!</option>
+                  </select>
+                    </div>
+
+              <div class="input-group">
+                <label for="dropoff place">Dropoff Place</label>
+                <input type="text"id="dropoff place">
+              </div>
+              </div>
+               </div>
+              </div>
+
+
+              <div class="column1">
+               <div class="texi">
+                  <label>Which texi do you require?</label><br>
+                  <label><input type="radio"id="car"value="car">Car</label><br>
+                  <label><input type="radio"id="van"value="van">Van</label><br>
+                  <label><input type="radio"id="tuk tuk"value="tuk tuk">Tuk Tuk</label><br><br>
+                  </div >
+
+                  <div class="extras">
+                   <label>Extras</label><br>
+                    <label><input type="checkbox"id="baby seat"value="baby seat">Baby Seat</label><br>
+                    <label><input type="checkbox"id="wheelchair access"value="wheelchair access">Wheelchair Access</label><br>
+                    <label><input type="checkbox"id="stock tip"value="stock tip">Stock Tip</label><br>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="input-group">
+                    <button type="submit booking">Submit Booking</button>
+                  </div>
+                    </form>
+                 </body>
+                   </html>

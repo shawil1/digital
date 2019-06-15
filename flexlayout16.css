@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+      background-color: lightgrey;
+      display: flex;
+      flex-direction: column;
+}
+
+.main input{
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+            border: 1px solid black;
+            border-radius: 3px;
+}
+
+.headmain input{
+                width:90vw;
+                padding: .5em;
+}
+
+.form{
+      display: flex;
+      flex-direction: row;
+}
+
+.step1 input{
+            width: 44vw;
+            padding: .5em;
+}
+
+.header{
+        display: flex;
+        flex-direction: row;
+}
+
+.formal{
+        display: flex;
+        flex-direction: row;
+}
